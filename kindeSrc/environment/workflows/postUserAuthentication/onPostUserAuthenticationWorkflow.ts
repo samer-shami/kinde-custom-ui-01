@@ -1,4 +1,4 @@
-mport {
+import {
   onPostAuthenticationEvent,
   WorkflowSettings,
   WorkflowTrigger,
@@ -7,6 +7,7 @@ mport {
 // The setting for this workflow
 export const workflowSettings: WorkflowSettings = {
   id: "onPostUserAuthentication",
+  name: "Post user authentication workflow",
   trigger: WorkflowTrigger.PostAuthentication,
 };
 
