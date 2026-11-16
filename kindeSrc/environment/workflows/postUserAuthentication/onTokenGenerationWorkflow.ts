@@ -5,5 +5,5 @@ export const workflowSettings = {
 };
 
 export default async function Workflow({request, context}) {
-  console.log("Hello world");
+  console.log("Generated Token was intercepted");
 }
