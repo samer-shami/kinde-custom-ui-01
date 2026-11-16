@@ -1,5 +1,6 @@
 export const workflowSettings = {
   id: "onTokenGeneration",
+  name: "User token generation",
   trigger: "user:tokens_generation"
 };
 
